@@ -1,6 +1,6 @@
 //URL of my web server
 var url = 'localhost:3000';
-var socket = io.connect(url);
+var socket = io.connect();
 // Defining Variables
 var user;
 let color = '#fa8072'
