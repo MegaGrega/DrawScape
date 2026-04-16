@@ -54,6 +54,7 @@ $(function () {
             e.preventDefault()
             //Sends chat value to server
             const message = messageInput.value
+            gamePlayObj.game = gamePlayObj.game || false;
             gamePlayObj.message = message
             gamePlayObj.user = user
             socket.emit('send-chat-message', gamePlayObj)
