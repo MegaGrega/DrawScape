@@ -38,8 +38,6 @@ For installing dependencies run:
 For starting the app run:
     npm start
 
-A deployed version of the app cn be [found here](https://drawscape.herokuapp.com).
-
 
 
 ## Usage 
